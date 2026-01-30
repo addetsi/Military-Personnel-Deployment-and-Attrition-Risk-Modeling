@@ -1,0 +1,52 @@
+Feature,Description,Type,Range/Values
+personnel_id,Unique identifier for each personnel,Categorical,MIL00001-MIL01000
+name,Anonymous name,Text,Fake names
+age,Age in years,Numeric,18-55
+gender,Gender,Categorical,"Male, Female"
+service_branch,Military branch,Categorical,"Army, Navy, Air Force"
+rank,Military rank level,Categorical,"Junior, NCO, Officer"
+MOS,Military Occupational Specialty,Categorical,15 specialties
+years_of_service,Total years in service,Numeric,0-30
+contract_end_date,Contract expiration date,Date,YYYY-MM-DD
+months_until_contract_end,Months until contract expires,Numeric,Calculated
+total_training_hours,Cumulative training hours,Numeric,0-2000
+specialized_courses_completed,Number of specialized courses,Numeric,0-15
+training_score_average,Average training assessment score,Numeric,60-100
+certifications_held,Number of active certifications,Numeric,0-8
+days_since_last_training,Days since last training session,Numeric,0-730
+skills_current,Skills are current (trained in last 12 months),Boolean,True/False
+training_budget_spent,Total training budget spent ($),Numeric,0-50000
+health_index,Composite health metric,Numeric,50-100
+physical_fitness_score,PT test score,Numeric,0-100
+medical_restrictions,Has medical restrictions,Boolean,True/False
+days_on_medical_leave,Medical leave days (per year),Numeric,0-180
+mental_health_status,Mental health assessment,Categorical,Excellent/Good/Fair/Concern
+wellness_program_participation,Participates in wellness programs,Boolean,True/False
+annual_leave_taken,Annual leave days used,Numeric,0-30
+emergency_leave_incidents,Emergency leave instances,Numeric,0-5
+unauthorized_absences,Unauthorized absence incidents,Numeric,0-3
+leave_balance,Remaining leave days,Numeric,0-30
+leave_to_service_ratio,Leave usage normalized by service years,Numeric,Calculated
+total_deployments,Total career deployments,Numeric,0-8
+months_deployed_last_3yrs,Months deployed in last 3 years,Numeric,0-36
+deployment_type,Most recent deployment type,Categorical,Domestic/International/Combat/None
+months_since_last_deployment,Months since last deployment,Numeric,0-999
+mission_performance_rating,Mission performance rating,Numeric,1-5
+combat_exposure_level,Combat exposure level,Categorical,None/Low/Moderate/High
+performance_review_score,Annual performance review score,Numeric,60-100
+commendations,Number of commendations/awards,Numeric,0-10
+disciplinary_actions,Number of disciplinary actions,Numeric,0-5
+leadership_potential_score,Leadership assessment score,Numeric,0-100
+promotion_eligible,Eligible for promotion,Boolean,True/False
+peer_rating_score,Peer evaluation score,Numeric,0-100
+marital_status,Marital status,Categorical,Single/Married/Divorced/Widowed
+dependents,Number of dependents,Numeric,0-5
+education_level,Highest education level,Categorical,High School/Associate/Bachelor/Master/Doctorate
+civilian_job_offers,Number of civilian job offers,Numeric,0-3
+financial_stress_indicator,Financial stress level,Categorical,Low/Medium/High
+family_support_score,Family support assessment,Numeric,0-100
+relocation_willingness,Willingness to relocate,Categorical,Low/Medium/High
+attrition_risk_score,Continuous attrition risk score,Numeric,0-100
+attrition_risk,Attrition risk category (TARGET 1),Categorical,LOW_RISK/MEDIUM_RISK/HIGH_RISK
+readiness_score,Deployment readiness score (TARGET 2),Numeric,0-100
+readiness_category,Readiness category,Categorical,Not Ready/Limited/Ready
