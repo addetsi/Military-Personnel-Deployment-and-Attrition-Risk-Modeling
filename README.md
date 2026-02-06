@@ -7,7 +7,7 @@
 
 ---
 
-## 📋 Project Overview
+##  Project Overview
 
 This portfolio project demonstrates end-to-end data science capabilities in HR analytics, focusing on military personnel management. The system combines classification and regression models to:
 
@@ -19,7 +19,7 @@ This portfolio project demonstrates end-to-end data science capabilities in HR a
 
 ---
 
-## 🎯 Project Goals
+##  Project Goals
 
 ### Business Objectives
 - Identify personnel at risk of leaving before contract completion
@@ -36,7 +36,7 @@ This portfolio project demonstrates end-to-end data science capabilities in HR a
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 **Core:**
 - Python 3.8+
@@ -93,9 +93,9 @@ streamlit run dashboard/app.py
 
 ---
 
-## 📊 Current Progress
+##  Current Progress
 
-### ✅ Phase 1: Data Generation (COMPLETE)
+###  Phase 1: Data Generation (COMPLETE)
 - [x] Generated 1000 synthetic personnel records
 - [x] Created 50+ features across 7 categories
 - [x] Calculated 2 target variables (attrition risk, readiness score)
@@ -109,13 +109,13 @@ streamlit run dashboard/app.py
 - Attrition risk: HIGH 25%, MEDIUM 30%, LOW 45%
 - Readiness score: Mean ~75, Std ~12
 
-### 🔄 Phase 2: EDA & Feature Engineering (NEXT)
+###  Phase 2: EDA & Feature Engineering (NEXT)
 - [ ] Create 15+ exploratory visualizations
 - [ ] Engineer 25+ additional features
 - [ ] Identify top predictors via correlation analysis
 - [ ] Prepare dataset for modeling
 
-### ⏳ Upcoming Phases
+###  Upcoming Phases
 - Phase 3: Attrition Prediction Model
 - Phase 4: Readiness Forecasting Model
 - Phase 5: Deployment Scenario Simulator
@@ -125,7 +125,7 @@ streamlit run dashboard/app.py
 
 ---
 
-## 🎯 Target Metrics
+##  Target Metrics
 
 ### Classification (Attrition Risk)
 - Recall (HIGH_RISK): ≥ 0.75
@@ -139,7 +139,7 @@ streamlit run dashboard/app.py
 
 ---
 
-## 📖 Key Features Generated
+##  Key Features Generated
 
 **Demographics:** Age, gender, branch, rank, MOS, years of service
 
