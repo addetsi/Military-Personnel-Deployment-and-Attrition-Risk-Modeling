@@ -1,0 +1,2 @@
+model_name,test_recall_high_risk,test_precision_high_risk,test_f1_weighted,meets_recall_target,meets_f1_target,training_samples,test_samples,n_features
+XGBoost,0.6923076923076923,0.5294117647058824,0.8071277024474205,False,True,1308,200,100
