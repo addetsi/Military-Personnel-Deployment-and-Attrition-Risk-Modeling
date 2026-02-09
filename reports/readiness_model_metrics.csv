@@ -1,0 +1,2 @@
+model_name,test_rmse,test_r2,test_mae,test_mape,meets_rmse_target,meets_r2_target,meets_mae_target,training_samples,test_samples,n_features
+Linear Regression,5.45332390021732,0.6562413180022675,4.349921536995302,6.202546251158806,True,False,True,800,200,98
