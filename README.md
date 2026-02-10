@@ -1,8 +1,6 @@
 # Military HR Analytics - Personnel Deployment & Attrition Risk System
 
-A data science portfolio project demonstrating predictive analytics for military HR management. Built using synthetic data to replicate work conducted during an internship with the Ghana Armed Forces.
 
----
 
 ## Project Overview
 
