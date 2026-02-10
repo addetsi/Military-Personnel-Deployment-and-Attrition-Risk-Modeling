@@ -206,46 +206,6 @@ results = simulator.simulate_deployment(
 
 ---
 
-## Technologies
-
-| Category | Tools |
-|----------|-------|
-| Language | Python 3.10 |
-| ML Models | XGBoost, LightGBM, Scikit-learn |
-| Data | Pandas, NumPy, Faker |
-| Visualization | Plotly, Matplotlib, Seaborn |
-| Dashboard | Streamlit |
-| Interpretation | SHAP |
-| Deployment | Docker, Docker Compose |
-
----
-
-## Ethical Considerations
-
-- **Privacy:** All personnel data is synthetically generated. No real names or identifying information is used. Personnel are referenced by ID only.
-- **Bias:** Models were checked for demographic bias across gender, age, and MOS categories. Predictions should not be used as the sole basis for personnel decisions.
-- **Transparency:** Model limitations are documented. Predictions assume historical patterns continue and cannot account for sudden external events.
-- **Security:** No actual operational data, mission details, or classified information is included in this repository.
-
----
-
-## Future Improvements
-
-- Increase attrition recall score with additional feature engineering and larger training data
-- Add survival analysis for time-to-attrition modeling
-- Integrate real-time data pipeline for live predictions
-- Add unit-level aggregated analytics
-- Expand deployment simulator with Monte Carlo uncertainty estimates
-- Build REST API for integration with existing HR systems
-
----
-
-## Author
-
-**Godwin Addetsi**
-MSc Data Science, Leiden University
-godwinaddetsi12@gmail.com
-
 ---
 
 *This project uses entirely synthetic data generated for portfolio demonstration purposes. It does not represent actual Ghana Armed Forces personnel, operations, or data systems.*
